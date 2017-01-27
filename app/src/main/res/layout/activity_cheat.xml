@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cheat_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_answer"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_answer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:hint="@string/cheat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_answer"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:hint="@string/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_back"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</RelativeLayout>

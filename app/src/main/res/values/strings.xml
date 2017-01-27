@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pictures</string>
+    <string name="start">START</string>
+    <string name="check">CHECK</string>
+    <string name="cheat">CHEAT</string>
+    <string name="correct_toast">CORRECT!</string>
+    <string name="incorrect_toast">INCORRECT!</string>
+
+    <string name="back">BACK</string>
+    <string name="cheater">CHEATER!!!</string>
+    <string name="exit">EXIT</string>
+
+</resources>
